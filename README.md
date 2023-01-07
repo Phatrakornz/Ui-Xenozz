@@ -115,15 +115,15 @@ function DiscordLib:Window(text)
 	MainFrame.Name = "MainFrame"
 	MainFrame.Parent = Discord
 	MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-	MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	MainFrame.BackgroundColor3 = Color3.fromRGB(32, 34, 37)
 	MainFrame.BorderSizePixel = 0
 	MainFrame.ClipsDescendants = true
 	MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
-	MainFrame.Size = UDim2.new(0, 681, 0, 681)
+	MainFrame.Size = UDim2.new(0, 681, 0, 396)
 
 	TopFrame.Name = "TopFrame"
 	TopFrame.Parent = MainFrame
-	TopFrame.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+	TopFrame.BackgroundColor3 = Color3.fromRGB(32, 34, 37)
 	TopFrame.BackgroundTransparency = 1.000
 	TopFrame.BorderSizePixel = 0
 	TopFrame.Position = UDim2.new(-0.000658480625, 0, 0, 0)
@@ -145,7 +145,7 @@ function DiscordLib:Window(text)
 	Title.Size = UDim2.new(0, 192, 0, 23)
 	Title.Font = Enum.Font.Gotham
 	Title.Text = text
-	Title.TextColor3 = Color3.fromRGB(0, 255, 255)
+	Title.TextColor3 = Color3.fromRGB(0, 102, 109)
 	Title.TextSize = 13.000
 	Title.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -237,7 +237,7 @@ function DiscordLib:Window(text)
 	UserName.Position = UDim2.new(0.230000004, 0, 0.115999997, 0)
 	UserName.Size = UDim2.new(0, 98, 0, 17)
 	UserName.Font = Enum.Font.GothamSemibold
-	UserName.TextColor3 = Color3.fromRGB(0, 255, 255)
+	UserName.TextColor3 = Color3.fromRGB(255, 255, 255)
 	UserName.TextSize = 13.000
 	UserName.TextXAlignment = Enum.TextXAlignment.Left
 	UserName.ClipsDescendants = true
@@ -268,7 +268,7 @@ function DiscordLib:Window(text)
 	ServersHold.Name = "ServersHold"
 	ServersHold.Parent = ServersHoldFrame
 	ServersHold.Active = true
-	ServersHold.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+	ServersHold.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	ServersHold.BackgroundTransparency = 1.000
 	ServersHold.BorderSizePixel = 0
 	ServersHold.Position = UDim2.new(-0.000359333731, 0, 0.0580808073, 0)
@@ -542,7 +542,7 @@ function DiscordLib:Window(text)
 
 	UsernameText.Name = "UsernameText"
 	UsernameText.Parent = UserSettingsPad
-	UsernameText.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+	UsernameText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	UsernameText.BackgroundTransparency = 1.000
 	UsernameText.Position = UDim2.new(0.0419999994, 0, 0.154714286, 0)
 	UsernameText.Size = UDim2.new(0, 65, 0, 19)
@@ -644,7 +644,7 @@ function DiscordLib:Window(text)
 
 	BlackFrame.Name = "BlackFrame"
 	BlackFrame.Parent = UserPanelUserIcon
-	BlackFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	BlackFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	BlackFrame.BackgroundTransparency = 0.400
 	BlackFrame.BorderSizePixel = 0
 	BlackFrame.Size = UDim2.new(0, 71, 0, 71)
@@ -1065,7 +1065,7 @@ function DiscordLib:Window(text)
 
 	LeftFrame.Name = "LeftFrame"
 	LeftFrame.Parent = SettingsHolder
-	LeftFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	LeftFrame.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
 	LeftFrame.BorderSizePixel = 0
 	LeftFrame.Position = UDim2.new(0, 0, -0.000303059904, 0)
 	LeftFrame.Size = UDim2.new(0, 233, 0, 375)

@@ -644,7 +644,7 @@ function DiscordLib:Window(text)
 
 	BlackFrame.Name = "BlackFrame"
 	BlackFrame.Parent = UserPanelUserIcon
-	BlackFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	BlackFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	BlackFrame.BackgroundTransparency = 0.400
 	BlackFrame.BorderSizePixel = 0
 	BlackFrame.Size = UDim2.new(0, 71, 0, 71)

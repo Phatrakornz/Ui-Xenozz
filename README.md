@@ -119,7 +119,7 @@ function DiscordLib:Window(text)
 	MainFrame.BorderSizePixel = 0
 	MainFrame.ClipsDescendants = true
 	MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
-	MainFrame.Size = UDim2.new(0, 700, 0, 700)
+	MainFrame.Size = UDim2.new(0, 750, 0, 750)
 
 	TopFrame.Name = "TopFrame"
 	TopFrame.Parent = MainFrame

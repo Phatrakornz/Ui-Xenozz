@@ -231,13 +231,13 @@ function DiscordLib:Window(text)
 
 	UserName.Name = "UserName"
 	UserName.Parent = Userpad
-	UserName.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+	UserName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	UserName.BackgroundTransparency = 1.000
 	UserName.BorderSizePixel = 0
 	UserName.Position = UDim2.new(0.230000004, 0, 0.115999997, 0)
 	UserName.Size = UDim2.new(0, 98, 0, 17)
 	UserName.Font = Enum.Font.GothamSemibold
-	UserName.TextColor3 = Color3.fromRGB(255, 255, 255)
+	UserName.TextColor3 = Color3.fromRGB(0, 255, 255)
 	UserName.TextSize = 13.000
 	UserName.TextXAlignment = Enum.TextXAlignment.Left
 	UserName.ClipsDescendants = true

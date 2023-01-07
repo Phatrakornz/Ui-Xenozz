@@ -231,7 +231,7 @@ function DiscordLib:Window(text)
 
 	UserName.Name = "UserName"
 	UserName.Parent = Userpad
-	UserName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	UserName.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
 	UserName.BackgroundTransparency = 1.000
 	UserName.BorderSizePixel = 0
 	UserName.Position = UDim2.new(0.230000004, 0, 0.115999997, 0)
